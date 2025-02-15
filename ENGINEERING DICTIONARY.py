@@ -1,0 +1,35 @@
+DATA = {
+"ALGORITHM": "A step-by-step problem-solving method.",
+"BEAM": "A bending-resistant structural element.",
+"BOOLEAN ALGEBRA": "Binary logic for circuits and programming.",
+"CAPACITANCE": "Charge storage ability in circuits.",
+"DIFFERENTIATION": "Calculating rate of change.",
+"EQUILIBRIUM": "A balanced force state.",
+"FACTOR OF SAFETY": "Strength margin in design.",
+"FREE BODY DIAGRAM": "A force-visualization tool.",
+"GRADIENT": "Maximum change direction of a function.",
+"HOOKE’S LAW": "Force proportional to displacement.",
+"IMPULSE": "Force applied over time.",
+"JACOBIAN MATRIX": "A matrix of partial derivatives.",
+"KINEMATICS": "Motion study without forces.",
+"LAPLACE TRANSFORM": "Converts differential to algebraic equations.",
+"MATRIX": "A structured number array.",
+"NEWTON’S LAWS": "Motion and force principles.",
+"OHM’S LAW": "Voltage equals current times resistance.",
+"PROGRAMMING LOOP": "Repeats instructions in code.",
+ "QUADRATIC EQUATION": "A second-degree polynomial equation.",
+ "RESONANCE": "Maximum vibration at matching frequencies.",
+"SHEAR STRESS": "Deformation-causing force per area.",
+"TORQUE": "A force causing rotation.",
+"UNIFORM MOTION": "Constant velocity movement.",
+ "VECTOR": "A quantity with magnitude and direction.",
+"WATT’S LAW": "Power equals voltage times current.",
+"XOR GATE": "Logic gate outputting true for different inputs.",
+"YIELD STRENGTH": "Permanent deformation stress limit.",
+"Z-TRANSFORM": "Discrete-time signal processing tool.",
+"ZERO FORCE MEMBER": "A force-free truss component.",
+"ZOOM LENS": "A lens with variable focus"
+}
+
+a = input(" 'SEARCH:Definition of' ")
+print(DATA[a])
